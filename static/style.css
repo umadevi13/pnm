@@ -1,41 +1,33 @@
- .container {
-  max-width: 400px;
-  margin: 0 auto;
-  padding: 20px;
-  background-color: #f2f2f2;
-  border: 1px solid #ccc;
-  border-radius: 5px;
+/*.img{
+    float:left;
+    border: solid 1px black;
+    padding:10px
 }
-
-h1 {
-  text-align: center;
+p{
+    display:inline;
 }
+a{
+    display:block;
+}*/
+.first{
+    display:flex;
+    background-color: azure;
+    border: solid 0.5px;
+    width: auto;
+    margin-left:auto;
+    margin-right:auto;
+    flex-direction:column;
 
-form {
-  display: flex;
-  flex-direction: column;
 }
-
-label {
-  margin-bottom: 10px;
+.first > div{
+    background-color: white;
+    width:100px;
+    margin:10px;
+    text-align:center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial,sans-serif;
+    border:solid 1px black;
+    border-radius:30px;
 }
-
-input[type="text"],
-input[type="password"] {
-  padding: 10px;
-  margin-bottom: 10px;
-  border-radius: 5px;
-  border: 1px solid #ccc;
-}
-
-input[type="submit"] {
-  padding: 10px;
-  background-color: #4CAF50;
-  color: white;
-  border: none;
-  cursor: pointer;
-}
-
-input[type="submit"]:hover {
-  background-color: #45a049;
+div:hover{
+    background-color: aqua;
 }
